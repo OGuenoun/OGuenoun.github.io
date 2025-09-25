@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Master's Student in Grenoble INP-Phelma 
+maths, data and finance enthusiast
 
-Maybe say a some things about yourself.
+Here you will find posts about random things , mainly technical stuff that took me a long time to do.
 
-Or maybe what you plan to blog about.
