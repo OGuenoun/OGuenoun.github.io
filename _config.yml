@@ -4,7 +4,7 @@ description: "Omar Guenoun's blog , posts about ML, Data and Finance"
 
 email: "guenounomar282@gmail.com"
 github_username: "OGuenoun"
-linkedin_username: "omar-guenoun-358b422a8"
+linkedin_username: "omar-guenoun"
 
 theme: "minima"
 
@@ -12,7 +12,7 @@ theme: "minima"
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -24,6 +24,14 @@ titles_from_headings:
 defaults:
   - scope:
       path: ""
-      type: post
+      type: posts
     values:
-      tags: Other
+      tags: []
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+header_pages:
+  - _pages/archive.md
