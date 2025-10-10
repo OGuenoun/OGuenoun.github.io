@@ -2,7 +2,7 @@
 layout: post
 title: "Extension of AUM to multiclass classification"
 date: 2025-10-10 12:00:00 +0200
-categories: [ML, Data]
+tags: [ML]
 ---
 # MultiClass AUM , ROC and AUC using torch
 
@@ -140,7 +140,7 @@ gg_roc_example
 
 
     
-![png](assets/img/2025-10-10-AUM-macro-micro/AUM_multiclass_notebook_11_0.png)
+![png](/assets/img/2025-10-10-AUM-macro-micro/AUM_multiclass_notebook_11_0.png)
     
 
 
@@ -229,7 +229,7 @@ plot
 
 
     
-![png](assets/img/2025-10-10-AUM-macro-micro/AUM_multiclass_notebook_16_0.png)
+![png](/assets/img/2025-10-10-AUM-macro-micro/AUM_multiclass_notebook_16_0.png)
     
 
 
@@ -270,7 +270,7 @@ gg_plot_roc
 
 
     
-![png](assets/img/2025-10-10-AUM-macro-micro/AUM_multiclass_notebook_19_0.png)
+![png](/assets/img/2025-10-10-AUM-macro-micro/AUM_multiclass_notebook_19_0.png)
     
 
 
@@ -418,6 +418,6 @@ gg_roc_macro
 
 
     
-![png](assets/img/2025-10-10-AUM-macro-micro/AUM_multiclass_notebook_30_0.png)
+![png](/assets/img/2025-10-10-AUM-macro-micro/AUM_multiclass_notebook_30_0.png)
     
 

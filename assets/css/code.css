@@ -1,0 +1,114 @@
+/* ==============================================
+   🌈 Code Block Styling — Works with Rouge (Jekyll)
+   ============================================== */
+
+/* Base font & spacing for all code */
+pre, code {
+  font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  line-height: 1.6;
+}
+
+/* Inline code (inside text) */
+code {
+  background: #f4f4f6;
+  color: #c7254e;
+  padding: 0.15rem 0.4rem;
+  border-radius: 6px;
+}
+
+/* Code blocks */
+pre.highlight, pre code {
+  display: block;
+  background: #1e1e1e;
+  color: #dcdcdc;
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+  border: 1px solid #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Scrollbars */
+pre::-webkit-scrollbar {
+  height: 8px;
+}
+pre::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 4px;
+}
+pre::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* === Rouge token colors (used by Jekyll's syntax highlighter) === */
+
+/* Comments */
+.highlight .c, .highlight .cm, .highlight .c1 {
+  color: #6a9955;
+  font-style: italic;
+}
+
+/* Keywords, control flow */
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kr {
+  color: #569cd6;
+  font-weight: 500;
+}
+
+/* Strings */
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2 {
+  color: #ce9178;
+}
+
+/* Numbers, constants */
+.highlight .m, .highlight .mi, .highlight .mf, .highlight .il {
+  color: #b5cea8;
+}
+
+/* Functions */
+.highlight .nf, .highlight .nx {
+  color: #dcdcaa;
+}
+
+/* Class & variable names */
+.highlight .nc, .highlight .n {
+  color: #9cdcfe;
+}
+
+/* Decorators, attributes */
+.highlight .nd, .highlight .na {
+  color: #c586c0;
+}
+
+/* Operators */
+.highlight .o, .highlight .ow {
+  color: #d4d4d4;
+}
+
+/* Error text */
+.highlight .err {
+  color: #f44747;
+  background-color: #1e1e1e;
+}
+
+/* === Light mode adjustment === */
+@media (prefers-color-scheme: light) {
+  pre.highlight, pre code {
+    background: #f7f8fa;
+    color: #2d2d2d;
+    border-color: #ddd;
+  }
+  code {
+    background: #f0f0f0;
+    color: #a31515;
+  }
+  .highlight .k, .highlight .kd, .highlight .kn {
+    color: #0070c1;
+  }
+  .highlight .s {
+    color: #d14;
+  }
+  .highlight .c {
+    color: #6a737d;
+  }
+}

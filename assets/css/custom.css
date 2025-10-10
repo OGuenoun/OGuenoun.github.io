@@ -1,0 +1,14 @@
+.wrapper, .site {
+  max-width: 100% !important;
+  padding: 0 2rem; 
+}
+
+.post-content {
+  max-width: 100% !important;
+}
+
+pre, code {
+  max-width: 100%;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
